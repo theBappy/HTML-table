@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(211,216,216);
+}
+
+table{
+    border-spacing: 0;
+    width: 80%;
+    border: 1px solid #dddd;
+}
+
+th,
+td{
+    padding: 15px;
+    text-align: left;
+}
+th{
+    cursor: pointer;
+}
+
+tr:nth-child(even){
+    background-color: seagreen;
+    color: white;
+}
